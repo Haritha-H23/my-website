@@ -1,0 +1,140 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #222;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.text-content h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text-content p {
+    margin: 15px 0;
+    font-size: 18px;
+    color: #bbb;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Education & Skills Section */
+#education-skills {
+    padding: 40px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Centers both sections */
+    align-items: stretch; /* Makes both sections equal height */
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+/* Education */
+.education, .skills {
+    flex: 1; /* Both take equal space */
+    padding: 20px;
+    background: #333;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.education-item {
+    margin-bottom: 20px;
+    background: #ffffff;
+    color: black;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Skills */
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill {
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    min-width: 80px; /* Ensures uniform size */
+    text-align: center;
+}
+/* Contact */
+#contact {
+    text-align: center;
+    padding: 40px;
+}
+
+#contact p {
+    font-size: 18px;
+}
+
